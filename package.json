@@ -51,7 +51,8 @@
     "mdast-util-mdx-jsx": "^3.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.2.7",
-    "unified": "^11.0.0"
+    "unified": "^11.0.0",
+    "wrangler": "4.99.0"
   },
   "packageManager": "pnpm@11.5.2",
   "engines": {

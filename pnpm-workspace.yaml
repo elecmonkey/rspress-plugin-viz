@@ -1,3 +1,16 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+
 minimumReleaseAgeExclude:
   - '@rspress/core@2.0.14'
   - '@rspress/shared@2.0.14'
+  - '@cloudflare/workerd-darwin-64@1.20260609.1'
+  - '@cloudflare/workerd-darwin-arm64@1.20260609.1'
+  - '@cloudflare/workerd-linux-64@1.20260609.1'
+  - '@cloudflare/workerd-linux-arm64@1.20260609.1'
+  - '@cloudflare/workerd-windows-64@1.20260609.1'
+  - miniflare@4.20260609.0
+  - workerd@1.20260609.1
+  - wrangler@4.99.0
