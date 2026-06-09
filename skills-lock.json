@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "rspress-custom-theme": {
+      "source": "rstackjs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/rspress-custom-theme/SKILL.md",
+      "computedHash": "7fe2fa67caabd3336adc635fbe97716d14ff22780d0046237d3b5086e8565277"
+    }
+  }
+}

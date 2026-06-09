@@ -1,0 +1,17 @@
+[
+  {
+    "type": "file",
+    "name": "getting-started",
+    "label": "Getting Started"
+  },
+  {
+    "type": "file",
+    "name": "development",
+    "label": "Development"
+  },
+  {
+    "type": "file",
+    "name": "changelog",
+    "label": "Changelog"
+  }
+]

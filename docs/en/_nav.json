@@ -1,0 +1,11 @@
+[
+  {
+    "text": "Guide",
+    "link": "/guide/getting-started",
+    "activeMatch": "/guide/"
+  },
+  {
+    "text": "0.1.0",
+    "link": ""
+  }
+]

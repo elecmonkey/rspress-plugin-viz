@@ -1,0 +1,19 @@
+.viz-container {
+  color: var(--rp-c-text-1);
+}
+
+.viz-container svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.viz-error {
+  margin: 1rem 0;
+  padding: 8px;
+  color: #ef4444;
+  background: var(--rp-c-bg-soft);
+  border: 1px solid #ef4444;
+  border-radius: var(--rp-radius-small);
+  white-space: pre-wrap;
+}
