@@ -8,13 +8,8 @@ export default defineConfig({
     {
       format: 'esm',
       dts: {
-        tsgo: true,
-      },
-      output: {
-        distPath: {
-          root: 'dist',
-        },
-      },
+        isolated: true
+      }
     },
   ],
   output: {
