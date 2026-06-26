@@ -22,7 +22,9 @@
     "lint": "rslint . --type-check",
     "docs:dev": "rspress dev",
     "docs:build": "rspress build",
-    "docs:preview": "rspress preview"
+    "docs:preview": "rspress preview",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "keywords": [
     "rspress",
@@ -52,7 +54,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.2.7",
     "unified": "^11.0.0",
-    "wrangler": "4.99.0"
+    "wrangler": "4.105.0"
   },
   "packageManager": "pnpm@11.5.2",
   "engines": {
