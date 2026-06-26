@@ -10,7 +10,7 @@ export { remarkViz } from './remarkViz';
 const packageRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const staticDir = join(packageRoot, 'static');
 
-export function pluginViz(options: PluginVizOptions = {}): RspressPlugin {
+function pluginViz(options: PluginVizOptions = {}): RspressPlugin {
   return {
     name: 'rspress-plugin-viz',
     markdown: {

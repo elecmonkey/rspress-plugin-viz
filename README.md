@@ -13,10 +13,10 @@ pnpm add -D rspress-plugin-viz @viz-js/viz
 ```ts
 // rspress.config.ts
 import { defineConfig } from 'rspress/config';
-import { pluginViz } from 'rspress-plugin-viz';
+import viz from 'rspress-plugin-viz';
 
 export default defineConfig({
-  plugins: [pluginViz()],
+  plugins: [viz()],
 });
 ```
 
@@ -44,7 +44,7 @@ digraph G {
 ## Options
 
 ```ts
-pluginViz({
+viz({
   className: 'my-custom-viz-class',
   scale: 1,
 });

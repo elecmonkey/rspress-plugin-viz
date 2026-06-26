@@ -17,22 +17,16 @@ yarn add -D rspress-plugin-viz @viz-js/viz
 
 ## Setup
 
-Register `pluginViz` in your Rspress config.
+Register the plugin in your Rspress config.
 
 ```ts
 // rspress.config.ts
 import { defineConfig } from '@rspress/core';
-import { pluginViz } from 'rspress-plugin-viz';
+import viz from 'rspress-plugin-viz';
 
 export default defineConfig({
-  plugins: [pluginViz()],
+  plugins: [viz()],
 });
-```
-
-This docs site uses the plugin from this repository directly:
-
-```ts
-import { pluginViz } from './src';
 ```
 
 ## Usage
@@ -81,7 +75,7 @@ digraph G {
 
 ## Advanced Configuration
 
-`pluginViz` accepts the following options:
+`viz` accepts the following options:
 
 ```ts
 interface PluginVizOptions {

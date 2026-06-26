@@ -17,22 +17,16 @@ yarn add -D rspress-plugin-viz @viz-js/viz
 
 ## 配置
 
-在 Rspress 配置中注册 `pluginViz`。
+在 Rspress 配置中注册插件。
 
 ```ts
 // rspress.config.ts
 import { defineConfig } from '@rspress/core';
-import { pluginViz } from 'rspress-plugin-viz';
+import viz from 'rspress-plugin-viz';
 
 export default defineConfig({
-  plugins: [pluginViz()],
+  plugins: [viz()],
 });
-```
-
-当前文档站点会直接使用本仓库主源码中的插件：
-
-```ts
-import { pluginViz } from './src';
 ```
 
 ## 使用
@@ -81,7 +75,7 @@ digraph G {
 
 ## 高级配置
 
-`pluginViz` 支持以下选项：
+`viz` 支持以下选项：
 
 ```ts
 interface PluginVizOptions {

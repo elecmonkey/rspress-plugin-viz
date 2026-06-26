@@ -1,6 +1,6 @@
 import * as path from 'node:path';
 import { defineConfig } from '@rspress/core';
-import { pluginViz } from './src';
+import viz from './src';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
@@ -24,7 +24,7 @@ export default defineConfig({
       description: '为 Rspress 添加 Graphviz 支持',
     },
   ],
-  plugins: [pluginViz()],
+  plugins: [viz()],
   themeConfig: {
     footer: {
       message: 'Released under the MIT License. Copyright © 2026-present Elecmonkey.',
