@@ -2,6 +2,8 @@
 
 Add [Graphviz](https://graphviz.org/) support for [Rspress](https://rspress.rs/) using [@viz-js/viz](https://github.com/mdaines/viz-js/).
 
+![Example](docs/public/example.svg)
+
 ## Install
 
 ```bash
