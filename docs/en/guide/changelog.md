@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+No changes.
+
 ## 0.2.2
 
 - Move custom theme directory to `docs/theme/` and include it in TypeScript type checking.

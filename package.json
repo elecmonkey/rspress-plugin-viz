@@ -1,6 +1,6 @@
 {
   "name": "rspress-plugin-viz",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Add Graphviz support for Rspress using @viz-js/viz.",
   "keywords": [
     "dot",
