@@ -34,4 +34,4 @@ pnpm docs:build
 
 ## 贡献
 
-欢迎贡献！请随时提交 Pull Request。
+欢迎贡献！请随时提交 Issue 或 Pull Request。

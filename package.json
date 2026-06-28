@@ -1,6 +1,6 @@
 {
   "name": "rspress-plugin-viz",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Add Graphviz support for Rspress using @viz-js/viz.",
   "keywords": [
     "dot",
@@ -34,8 +34,7 @@
     "build": "rslib build",
     "dev": "rslib build --watch",
     "fmt": "oxfmt --write .",
-    "fmt:check": "oxfmt --check .",
-    "lint": "rslint . --type-check",
+    "lint": "rslint . --type-check && oxfmt --check .",
     "docs:dev": "rspress dev",
     "docs:build": "rspress build",
     "docs:preview": "rspress preview"

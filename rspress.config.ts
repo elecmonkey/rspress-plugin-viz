@@ -40,5 +40,6 @@ export default defineConfig({
   },
   route: {
     cleanUrls: true,
+    exclude: ['theme/**'],
   },
 });

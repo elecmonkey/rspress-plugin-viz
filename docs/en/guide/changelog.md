@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2
+
+- Move custom theme directory to `docs/theme/` and include it in TypeScript type checking.
+- Add oxfmt formatter.
+
 ## 0.2.1
 
 - Switch to npm OIDC trusted publishing (no token required).
