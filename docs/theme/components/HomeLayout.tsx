@@ -1,6 +1,6 @@
 import { useDark, useLang } from '@rspress/core/runtime';
 import { Button } from '@rspress/core/theme-original';
-import Viz from '../../static/global-components/Viz';
+import Viz from '../../../static/global-components/Viz';
 
 const graphText = `digraph G {
   rankdir=LR

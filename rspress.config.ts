@@ -4,6 +4,7 @@ import viz from './src';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
+  themeDir: path.join(__dirname, 'docs', 'theme'),
   title: 'Rspress Plugin Viz',
   description: 'Graphviz support for Rspress',
   lang: 'en',
