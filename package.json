@@ -37,7 +37,9 @@
     "lint": "rslint . --type-check && oxfmt --check .",
     "docs:dev": "rspress dev",
     "docs:build": "rspress build",
-    "docs:preview": "rspress preview"
+    "docs:preview": "rspress preview",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "dependencies": {
     "unist-util-visit": "^5.1.0"
@@ -55,7 +57,7 @@
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "unified": "^11.0.5",
-    "wrangler": "4.99.0"
+    "wrangler": "4.105.0"
   },
   "peerDependencies": {
     "@rspress/core": "^2.0.0",
