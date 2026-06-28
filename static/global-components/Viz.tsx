@@ -108,8 +108,7 @@ export default function Viz({ graph, className = 'viz', scale = 1 }: VizProps) {
           setHtml(svgElement.outerHTML);
         }
       } catch (error) {
-        const message =
-          error instanceof Error ? error.message : String(error ?? 'Unknown error');
+        const message = error instanceof Error ? error.message : String(error ?? 'Unknown error');
         if (!cancelled) {
           setHtml(`<pre class="viz-error">${escapeHtml(message)}</pre>`);
         }
@@ -124,9 +123,6 @@ export default function Viz({ graph, className = 'viz', scale = 1 }: VizProps) {
   }, [graph, scale]);
 
   return (
-    <div
-      className={`viz-container ${className}`}
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
+    <div className={`viz-container ${className}`} dangerouslySetInnerHTML={{ __html: html }} />
   );
 }

@@ -23,10 +23,7 @@ function getScale(node: Code, options?: PluginVizOptions): number {
   return options?.scale ?? 1;
 }
 
-function createVizNode(
-  node: Code,
-  options?: PluginVizOptions,
-): MdxJsxFlowElement {
+function createVizNode(node: Code, options?: PluginVizOptions): MdxJsxFlowElement {
   const className = options?.className ?? options?.class ?? 'viz';
   const scale = getScale(node, options);
 
@@ -42,9 +39,9 @@ function createVizNode(
   };
 }
 
-export const remarkViz: Plugin<[PluginVizOptions?], Root> = options => {
-  return tree => {
-    visit(tree, 'code', node => {
+export const remarkViz: Plugin<[PluginVizOptions?], Root> = (options) => {
+  return (tree) => {
+    visit(tree, 'code', (node) => {
       if (!node.lang || !VIZ_LANGUAGE_RE.test(node.lang)) {
         return;
       }

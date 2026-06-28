@@ -82,10 +82,20 @@ export function HomeLayout() {
             {isZh ? '将 Graphviz 引入你的文档' : 'Bring Graphviz to your documentation'}
           </p>
           <div className="viz-home__actions">
-            <Button type="a" theme="brand" className="viz-home__button" href={isZh ? '/zh/guide/getting-started' : '/guide/getting-started'}>
+            <Button
+              type="a"
+              theme="brand"
+              className="viz-home__button"
+              href={isZh ? '/zh/guide/getting-started' : '/guide/getting-started'}
+            >
               {isZh ? '快速开始' : 'Get Started'}
             </Button>
-            <Button type="a" theme="alt" className="viz-home__button" href="https://github.com/elecmonkey/rspress-plugin-viz">
+            <Button
+              type="a"
+              theme="alt"
+              className="viz-home__button"
+              href="https://github.com/elecmonkey/rspress-plugin-viz"
+            >
               {isZh ? '在 GitHub 上查看' : 'View on GitHub'}
             </Button>
           </div>
@@ -98,7 +108,9 @@ export function HomeLayout() {
               <span className="viz-home__dot viz-home__dot--yellow" />
               <span className="viz-home__dot viz-home__dot--green" />
             </div>
-            <pre><code>{previewGraph}</code></pre>
+            <pre>
+              <code>{previewGraph}</code>
+            </pre>
           </div>
 
           <div className="viz-home__card viz-home__preview-card">

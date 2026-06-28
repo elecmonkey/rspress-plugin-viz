@@ -8,8 +8,8 @@ export default defineConfig({
     {
       format: 'esm',
       dts: {
-        isolated: true
-      }
+        isolated: true,
+      },
     },
   ],
   output: {
